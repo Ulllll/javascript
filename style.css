@@ -1,0 +1,108 @@
+^{
+    margin: 0 auto;
+    padding: 0;
+}
+.container {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.product_cart{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 700px;
+}
+.img_text img {
+    height: 150px;
+}
+.img_text{
+    padding: 15px;
+    border: 1px solid black;
+    margin: 25px;
+}
+.img_text h4{
+    font-size: 18px;
+    text-align: center;
+}
+.img_text p{
+    font-size: 16px;
+    text-align: center;
+}
+.cart img{
+    height: 30px;
+}
+.cart{
+    margin-top: 40px;
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    margin-right: 100px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.cart h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+.cart div{
+    font-size: 18px;
+    padding-left: 15px;
+}
+.cart span{
+    font-size: 18px;
+    padding-left: 105px;
+}
+.cart p{
+    display: block;
+    padding-left: 165px;
+}
+.cart p span{
+    padding-left: 25px;
+}
+.carousel  {
+   max-width: 970px; 
+   margin: 50px auto;
+   width:100%;
+}
+.carousel-wrapper {
+   margin: 10px 30px; 
+   overflow: hidden; 
+   position:relative;
+}
+.carousel-items {
+   width: 10000px; 
+   position: relative; 
+}
+.carousel-block {
+   float: left; 
+   width: 450px; 
+   padding: 15px; 
+}
+.carousel-block img{
+	display:block;
+}
+
+.carousel-button-left a, .carousel-button-right a{
+   width: 25px; 
+   height: 36px; 
+   position: relative;
+   top: 180px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+.carousel-button-left a{
+   float: left; 
+   background: url(img/left.png); 
+}
+.carousel-button-right a{
+   float: right;
+   background: url(img/right.png); 
+}
+.shadow{
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
